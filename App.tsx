@@ -1,7 +1,9 @@
+import {
+  ActionSheetProvider,
+  connectActionSheet,
+} from "@expo/react-native-action-sheet";
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
-import { ActionSheetProvider } from "@expo/react-native-action-sheet";
-import { connectActionSheet } from "@expo/react-native-action-sheet";
+import { StyleSheet, View } from "react-native";
 import MyComponent from "./src/components/MyComponent";
 
 function App() {

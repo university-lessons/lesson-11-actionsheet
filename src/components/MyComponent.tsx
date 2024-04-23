@@ -1,6 +1,6 @@
-import { View, Text, Button } from "react-native";
-import React from "react";
 import { useActionSheet } from "@expo/react-native-action-sheet";
+import React from "react";
+import { Button, Text } from "react-native";
 
 export default function MyComponent() {
   const { showActionSheetWithOptions } = useActionSheet();
