@@ -5,12 +5,14 @@ import {
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, View } from "react-native";
 import MyComponent from "./src/components/MyComponent";
+import MyComponent2 from "./src/components/MyComponent2";
 
 function App() {
   return (
     <ActionSheetProvider>
       <View style={styles.container}>
         <MyComponent />
+        <MyComponent2 />
         <StatusBar style="auto" />
       </View>
     </ActionSheetProvider>
